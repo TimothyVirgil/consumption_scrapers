@@ -1,0 +1,6 @@
+__pycache__
+
+# jupyter files
+run_scrape.ipynb
+check_goodreads.ipynb
+check_consumption.ipynb

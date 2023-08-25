@@ -40,6 +40,7 @@ def scrape_backloggd(username: str) -> dict:
                 game_dict[game] = rating
 
             if a % 5 == 0:
+                print('Waiting 5 seconds to ping server')
                 # be chill with the scraping
                 time.sleep(5)
                 a += 1
